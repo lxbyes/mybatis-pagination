@@ -38,8 +38,8 @@ public class PaginationInterceptor implements Interceptor {
         final Object[] args = invocation.getArgs();
         for (Object arg : args) {
             System.out.println(">>>" + arg);
-            System.out.println("<<<" + arg.getClass());
         }
+        
 
         // final Object[] args = invocation.getArgs();
         // RowBounds rowBounds = (RowBounds) args[2];
